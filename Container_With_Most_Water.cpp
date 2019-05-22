@@ -22,14 +22,3 @@ class Solution{
 
 		}
 };
-
-int main()
-{
-	Solution s1;
-	int a[] = {1,8,6,2,5,4,8,3,7};
-	vector<int> height;
-	//将a的所有元素插入到height中
-	height.insert(height.begin(), a, a+9);
-    int result=s1.maxArea(height);
-	return 0;
-}
